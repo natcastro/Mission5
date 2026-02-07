@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<div class="container mt-5">
+    <h1>Tutor Pricing Calculator</h1>
+
+    <label class="form-label mt-3">Hours needed</label>
+    <input id="hoursInput" type="number" class="form-control" />
+
+    <div id="hoursError" class="text-danger mt-2" style="display:none;">
+        Please enter a positive number.
+    </div>
+
+    <label class="form-label mt-3">Rate per hour</label>
+    <input id="rateInput" type="text" class="form-control" value="25" readonly />
+
+    <button id="calcBtn" class="btn btn-success mt-3">Calculate Total</button>
+
+    <label class="form-label mt-3">Total</label>
+    <input id="totalOutput" type="text" class="form-control" readonly />
+
+    <a class="btn btn-outline-primary mt-3" asp-controller="Home" asp-action="Index">Back to Home</a>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/js/calculation.js"></script>
+}

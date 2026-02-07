@@ -1,0 +1,186 @@
+/* =====================
+   COLOR VARIABLES
+   ===================== */
+:root {
+  --black-soft: #1a1a1a;
+  --gray-light: #e5e5e5;
+  --gray-medium: #bdbdbd;
+  --green-earth: #3f6f5e;   /* earth green accent */
+  --green-soft: #e6f0ec;
+  --white: #ffffff;
+}
+
+/* =====================
+   BASE STYLES
+   ===================== */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--white);     /* clean white background */
+  color: var(--black-soft);           /* soft black text */
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  margin-bottom: 80px;
+  line-height: 1.6;
+}
+
+/* =====================
+   NAVBAR
+   ===================== */
+.navbar {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--black-soft);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--black-soft) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--green-earth) !important;
+}
+
+/* =====================
+   HEADINGS
+   ===================== */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* =====================
+   CONTAINER
+   ===================== */
+.container {
+  max-width: 1100px;
+}
+
+/* =====================
+   IMAGES
+   ===================== */
+img {
+  border: 1px solid var(--black-soft); /* thin black border */
+  border-radius: 6px;
+  padding: 4px;
+  background-color: var(--white);
+}
+
+/* =====================
+   BUTTONS
+   ===================== */
+.btn-primary,
+.btn-success {
+  background-color: var(--green-earth);
+  border: 1px solid var(--green-earth);
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+  background-color: var(--black-soft);
+  border-color: var(--black-soft);
+}
+
+.btn-outline-primary {
+  color: var(--black-soft);
+  border-color: var(--black-soft);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--black-soft);
+  color: var(--white);
+}
+
+/* =====================
+   FORMS
+   ===================== */
+.form-control {
+  border-radius: 4px;
+  border: 1px solid var(--black-soft);
+}
+
+.form-control:focus {
+  border-color: var(--green-earth);
+  box-shadow: 0 0 0 0.15rem var(--green-soft);
+}
+
+/* =====================
+   VALIDATION TEXT
+   ===================== */
+.text-danger {
+  font-size: 0.9rem;
+}
+
+/* =====================
+   FOOTER
+   ===================== */
+footer {
+  background-color: var(--white);
+  border-top: 1px solid var(--black-soft);
+  color: var(--black-soft);
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* =====================
+   LINKS
+   ===================== */
+a {
+  color: var(--green-earth);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   FORM FLOATING FIXES
+   ===================== */
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+  color: var(--gray-medium);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* Image sizing for hobby page */
+.hobby-img {
+  width: 300px;
+  height: 470px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Keep images from pushing the button off-screen */
+.hobby-img{
+  max-height: 320px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Give space before the button */
+.hobby-btn{
+  margin-top: 18px;
+}
