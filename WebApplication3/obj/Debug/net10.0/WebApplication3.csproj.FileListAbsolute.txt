@@ -21,7 +21,6 @@
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/scopedcss/bundle/WebApplication3.styles.css
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/scopedcss/projectbundle/WebApplication3.bundle.scp.css
-/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/zvpxsst9g2-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/5o8p73c979-{0}-bqjiyaj88i-bqjiyaj88i.gz
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/lsxs8l7gnu-{0}-c2jlpeoesf-c2jlpeoesf.gz
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/b0ie60lyzo-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -93,5 +92,6 @@
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/WebApplication3.pdb
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/WebApplication3.genruntimeconfig.cache
 /Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/ref/WebApplication3.dll
-/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/08et3wxuqm-{0}-veeaatl683-veeaatl683.gz
-/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/er896jf3y0-{0}-bdr3f2on1i-bdr3f2on1i.gz
+/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/WebApplication3.sourcelink.json
+/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/er896jf3y0-{0}-ua1c7zshks-ua1c7zshks.gz
+/Users/nataliecastro/RiderProjects/WebApplication3/WebApplication3/obj/Debug/net10.0/compressed/08et3wxuqm-{0}-tltgl8xkru-tltgl8xkru.gz
